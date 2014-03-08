@@ -10,7 +10,9 @@ if (file_exists(dirname(__FILE__) . '/defines.php'))
 define('JPATH_BASE', dirname(__FILE__));
 define('JPATH_PLATFORM', JPATH_BASE . '/libraries');
 define('JPATH_MYWEBAPP',JPATH_BASE);
- 
+
+echo JPATH_BASE . '<br />';
+
 // Usually this will be in the framework.php file in the
 // includes folder.
 require_once JPATH_PLATFORM.'/import.php';
